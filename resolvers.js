@@ -4,6 +4,6 @@ const Query = {
     test: () => {
         return 'Test Success, GraphQL server is up & running !!'
     },
-    test2: () => db.students.list()
+    students: () => db.students.list()
  }
  module.exports = {Query}

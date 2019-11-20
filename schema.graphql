@@ -1,12 +1,13 @@
 type Query  {
    test: String
-   test2: [Student]
+   students: [Student]
+   stud_details:[Student]
 }
 
 type Student {
-   id:ID!
+   stud_id:ID!
    firstName:String
    lastName:String
-   password:String
-   collegeId:String
+   fullName:String
+   college:College
 }
