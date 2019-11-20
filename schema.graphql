@@ -9,5 +9,4 @@ type Student {
    firstName:String
    lastName:String
    fullName:String
-   college:College
 }
